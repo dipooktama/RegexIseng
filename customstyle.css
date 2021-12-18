@@ -1,0 +1,61 @@
+html, body{
+	height:100%;
+}
+
+@keyframes bgGradient{
+	0%{
+		background-color:#44deb0;
+	}
+	50%{
+		background-color:#009688;
+	}
+	100%{
+		background-color:#1d8a9d;
+	}
+}
+
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	animation: bgGradient linear 5s infinite alternate backwards;
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 5px solid #009688;
+	
+}
+
+main{
+	margin: 0 0 0 0;
+	width: 50%;
+	padding-top: 0;
+	justify-content:center;
+	align-items: center;
+	background-color: #F0F0F0;
+}
+
+form{
+	display:flex;
+	flex-direction:column;
+}
+
+input, button, .buttonLogout {
+	width:100%;
+}
+
+.buttonLogout{
+	margin: 20px auto 20px 0;
+}
+
+.buttonPassGen {
+	
+	word-wrap: break-word;
+}
+
+#daftar{
+	top 10rem;
+}
